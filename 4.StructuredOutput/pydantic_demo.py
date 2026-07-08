@@ -18,3 +18,4 @@ student_dict = dict(student)
 print(student_dict['age'])
 
 student_json = student.model_dump_json()
+print(student_json)
