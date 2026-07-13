@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 model=ChatGoogleGenerativeAI(model='gemini-2.5-flash')
-
+vall=0
 prompt1=PromptTemplate(
     template='Answer the following \n {question} from the following -\n {text}',
     input_variable=['question','text']
